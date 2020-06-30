@@ -1,12 +1,13 @@
 package example.micronaut.books;
 
+import io.micronaut.context.annotation.Context;
+
 import javax.annotation.PostConstruct;
-import javax.inject.Singleton;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Singleton
+@Context
 public class BookService {
 
     private static final List<Book> bookStore = new ArrayList<>();

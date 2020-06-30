@@ -1,7 +1,6 @@
 micronaut:
   application:
     name: books
----
 endpoints:
   health:
     enabled: true
