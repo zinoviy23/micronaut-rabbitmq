@@ -16,3 +16,5 @@ rabbitmq:
 endpoints:
   health:
     enabled: true
+
+aaa: lol

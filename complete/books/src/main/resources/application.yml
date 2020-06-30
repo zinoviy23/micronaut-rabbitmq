@@ -10,3 +10,5 @@ endpoints:
 rabbitmq:
   uri: amqp://localhost:5672
 #end::rabbitmq[]
+
+aaa: aaa

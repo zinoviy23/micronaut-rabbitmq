@@ -15,8 +15,15 @@ public class AnalyticsListener {
         this.analyticsService = analyticsService;
     }
 
-    @Queue("analytics") // <4>
+    // TODO queue completion
+    @Queue("") // <4>
     public void updateAnalytics(Book book) {
+        analyticsService.updateBookAnalytics(book); // <5>
+    }
+
+    // TODO gutter
+    @Queue("reviews") // <4>
+    public void updateReviews(Book book) {
         analyticsService.updateBookAnalytics(book); // <5>
     }
 }
