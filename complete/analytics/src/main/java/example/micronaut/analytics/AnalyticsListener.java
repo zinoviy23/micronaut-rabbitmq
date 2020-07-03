@@ -16,7 +16,7 @@ public class AnalyticsListener {
     }
 
     // TODO queue completion
-    @Queue("") // <4>
+    @Queue("kek") // <4>
     public void updateAnalytics(Book book) {
         analyticsService.updateBookAnalytics(book); // <5>
     }

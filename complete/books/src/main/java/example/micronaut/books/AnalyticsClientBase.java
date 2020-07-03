@@ -1,6 +1,6 @@
 package example.micronaut.books;
 
-import io.micronaut.configuration.rabbitmq.annotation.Binding;
+import io.micronaut.rabbitmq.annotation.Binding;
 
 public interface AnalyticsClientBase {
     @Binding("analytics")// <2>

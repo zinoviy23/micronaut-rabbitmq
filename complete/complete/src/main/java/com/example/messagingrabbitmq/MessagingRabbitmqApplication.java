@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class MessagingRabbitmqApplication {
 
-	static final String topicExchangeName = "spring-boot-exchange";
+	static final String topicExchangeName = "";
 
 	static final String queueName = "analytics";
 
